@@ -1,0 +1,14 @@
+-- Schema for the user profile database
+
+-- Create the profiles table to store user profile information
+CREATE TABLE profiles (
+    username VARCHAR(50) PRIMARY KEY,
+    email VARCHAR(100) NOT NULL,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    birthdate DATE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Set character set and collation
+ALTER TABLE profiles CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
