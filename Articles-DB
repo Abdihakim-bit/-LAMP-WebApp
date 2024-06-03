@@ -1,0 +1,12 @@
+-- Schema for the articles database
+
+-- Create the posts table to store user credentials
+CREATE TABLE posts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL,
+    author VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+-- Set character set and collation
+ALTER TABLE USERS CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
