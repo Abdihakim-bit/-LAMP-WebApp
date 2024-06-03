@@ -4,4 +4,5 @@ $username = "username";
 $password = "xxxxxxx";
 $dbname = "Password-DB";
 $$dbname_profile = "Profiles-DB";
+$dbname_posts = "Articles-DB";
 ?>
