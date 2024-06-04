@@ -198,7 +198,7 @@
             <label for="author">Your Name:</label><br>
             <input type="text" id="author" name="author" required><br><br>
             <input type="submit" value="Post">
-        </form>
+        </form> 
     </div>
     <script>
         function updateCharCount() {
