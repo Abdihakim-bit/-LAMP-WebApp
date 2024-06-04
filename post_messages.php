@@ -9,6 +9,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $author = $_POST['author'];
     $content = $_POST['content'];
 
+    // Validate content length
+    if (strlen($content) > 1000) {
+        die("Content must be 1000 characters or less.");
+    }
+
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname_posts);
 
