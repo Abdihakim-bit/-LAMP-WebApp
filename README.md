@@ -2,7 +2,6 @@
 
 ## Overview
 
-LAMP-WebApp is a simple web application built on the LAMP stack (Linux, Apache, MySQL, PHP). It provides user authentication and profile management features, allowing users to register, log in, post and read published messages and view their profiles. In addition to the existing features, the application has been enhanced to include an articles board where users can post and view articles.
 LAMP-WebApp is a simple web application built on the LAMP stack (Linux, Apache, MySQL, PHP). It provides user authentication and profile management features, allowing users to register, log in, post and read published messages, and view their profiles. In addition to the existing features, the application has been improved to ensure all website traffic is conducted over HTTPS and to make the website accessible via a DuckDNS subdomain.
 
 ## Features
